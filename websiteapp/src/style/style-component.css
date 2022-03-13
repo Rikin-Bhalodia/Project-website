@@ -1,0 +1,96 @@
+const CarouselSliderWrapper = styled.div`
+  .container {
+    max-width: 1170px !important;
+    margin: 0 auto;
+  }
+  .slider-banner {
+    height: 454px;
+    background-position: left;
+    background-size: cover;
+    background-image: url(/banner/home-banner.jpg);
+    background-image: -moz-linear-gradient(left,  #00243E 40%, rgba(0,0,0,0) 100%),url(/banner/home-banner.jpg); /* FF3.6-15 */
+    background-image: -webkit-linear-gradient(left,  #00243E 40%,rgba(0,0,0,0) 100%),url(/banner/home-banner.jpg); /* Chrome10-25,Safari5.1-6 */
+    background-image: linear-gradient(to right,  #00243E 40%,rgba(0,0,0,0) 100%),url(/banner/home-banner.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ), progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/banner/home-banner.jpg, sizingMethod='crop');
+    @media (max-width: 480px) {
+      min-height: 430px;
+      height: 100% !important;
+      padding-bottom: 30px;
+    }
+  }
+  .slider-banner-2 {
+    height: 454px;
+    background-position: right;
+    background-size: cover;
+    background-image: url(/banner/home-banner2.jpg);
+    background-image: -moz-linear-gradient(left,  #4A152B 40%, rgba(0,0,0,0) 100%),url(/banner/home-banner2.jpg); /* FF3.6-15 */
+    background-image: -webkit-linear-gradient(left,  #4A152B 40%,rgba(0,0,0,0) 100%),url(/banner/home-banner2.jpg); /* Chrome10-25,Safari5.1-6 */
+    background-image: linear-gradient(to right,  #4A152B 40%,rgba(0,0,0,0) 100%),url(/banner/home-banner2.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ), progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/banner/home-banner.jpg, sizingMethod='crop');
+    @media (max-width: 480px) {
+      min-height: 430px;
+      height: 100% !important;
+      padding-bottom: 30px;
+    }
+  }
+  .slider-banner-3 {
+    height: 454px;
+    background-position: right;
+    background-size: cover;
+    background-image: url(/banner/home-banner3.jpg);
+    background-image: -moz-linear-gradient(left,  #071642 40%, rgba(0,0,0,0) 100%),url(/banner/home-banner3.jpg); /* FF3.6-15 */
+    background-image: -webkit-linear-gradient(left,  #071642 40%,rgba(0,0,0,0) 100%),url(/banner/home-banner3.jpg); /* Chrome10-25,Safari5.1-6 */
+    background-image: linear-gradient(to right,  #071642 40%,rgba(0,0,0,0) 100%),url(/banner/home-banner3.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ), progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/banner/home-banner.jpg, sizingMethod='crop');
+    @media (max-width: 480px) {
+      min-height: 430px;
+      height: 100% !important;
+      padding-bottom: 30px;
+    }
+  }
+  .first-slide {
+    color: ${({ theme }) => theme.appPrimary};
+    @media (max-width: 480px) {
+      padding-top: 0 !important;
+      font-size: 30px !important;
+    }
+  }
+  .proposal-btn {
+    padding: 28px 25px 28px 30px;
+    margin-top: 30px;
+    height: 80px;
+    background: ${({ theme }) => theme.appPrimary};
+    color: ${({ theme }) => theme.light};
+    border: none;
+    outline: 0;
+    &:hover {
+      transition: .2s all linear;
+      background: ${({ theme }) => theme.light};
+      color: ${({ theme }) => theme.appPrimary};
+    }
+    @media (max-width: 480px) {
+      height: 60px;
+    }
+  }
+  .arrow-icon {
+    filter: brightness(0) invert(1);
+  }
+  .secure-text {
+    margin-top: 15px;
+  }
+  .title-text {
+    color: ${({ theme }) => theme.light};
+  }
+  .suc-pro-text {
+    color: ${({ theme }) => theme.appPrimary};
+  }
+  .products-slider {
+    max-width: 150px;
+    height: 100px;
+  }
+  @media (max-width: 480px) {
+    .banner-container {
+      padding: 30px !important;
+    }
+  }
+`;

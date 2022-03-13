@@ -1,0 +1,129 @@
+.pconcept {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 8rem;
+}
+.bulb {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulbq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}
+
+.youtube {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtubeq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}
+
+
+.camera {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cameraq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}
+
+
+.star {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}
+
+
+.ppconcept {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 6rem;
+}
+
+.shield {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shieldq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}
+
+.sbuilding {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sbuildingq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}
+
+
+.energy {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.energyq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}
+
+
+.danger {
+  background: rgb(138, 190, 223);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dangerq {
+  padding: 2.5rem;
+  height: 9rem;
+  width: 9rem;
+}

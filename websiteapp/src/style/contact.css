@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.second3 {
+  background-image: linear-gradient(
+      to right,
+      rgb(25, 47, 71) 40%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../attribute/home-banner2.webp");
+  background-position: left center;
+  background-size: cover;
+  height: 454px;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  padding-top: 100px;
+}

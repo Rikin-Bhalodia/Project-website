@@ -1,0 +1,212 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.building-title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 100px;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.second3 {
+  background-image: linear-gradient(
+      to right,
+      rgb(25, 47, 71) 40%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../attribute/home-banner2.webp");
+  background-position: left center;
+  background-size: cover;
+  height: 454px;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  font-size: 3rem;
+  padding-top: 100px;
+}
+
+.building-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(255, 254, 254) 11.2%,
+    rgb(177, 178, 179) 91.1%
+  );
+}
+
+.building-details h6 {
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+
+.building-details h6 span {
+  color: rgb(51, 133, 187);
+}
+
+.building-details p {
+  font-size: 1.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.building-details2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5rem;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(255, 254, 254) 11.2%,
+    rgb(177, 178, 179) 91.1%
+  );
+}
+
+.building-details2 h6 {
+  font-size: 3rem;
+}
+
+.building-details2 h6 span {
+  color: rgb(51, 133, 187);
+}
+
+.building-details2 p {
+  font-size: 1.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  height: 20rem;
+}
+
+.individual1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.individual1 h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.office-title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 100px;
+  padding-top: 100px;justify-content: center;
+  font-size: 1.5rem;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.second3 {
+  background-image: linear-gradient(
+      to right,
+      rgb(25, 47, 71) 40%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../attribute/home-banner2.webp");
+  background-position: left center;
+  background-size: cover;
+  height: 454px;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  font-size: 3rem;
+  padding-top: 100px;
+}
+
+.office-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 25rem;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(255, 254, 254) 11.2%,
+    rgb(177, 178, 179) 91.1%
+  );
+}
+
+.office-details h6 {
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+
+.office-details h6 span {
+  color: rgb(51, 133, 187);
+}
+
+.office-details p {
+  font-size: 1.5rem;
+  padding-left: 8rem;
+  padding-top: 2.5rem;
+  padding-right: 8rem;
+}
+
+.hotel-title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 100px;
+  padding-top: 100px;justify-content: center;
+  font-size: 1.5rem;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.second3 {
+  background-image: linear-gradient(
+      to right,
+      rgb(25, 47, 71) 40%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../attribute/home-banner2.webp");
+  background-position: left center;
+  background-size: cover;
+  height: 454px;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  font-size: 3rem;
+  padding-top: 100px;
+}
+
+.hotel-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 27rem;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(255, 254, 254) 11.2%,
+    rgb(177, 178, 179) 91.1%
+  );
+}
+
+.hotel-details h6 {
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+
+.hotel-details h6 span {
+  color: rgb(51, 133, 187);
+}
+
+.hotel-details p {
+  font-size: 1.5rem;
+  padding-left: 8rem;
+  padding-top: 2.5rem;
+  padding-right: 8rem;
+}
+
